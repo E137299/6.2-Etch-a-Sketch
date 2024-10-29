@@ -3,7 +3,7 @@
 ### Assignment: Build Your Own Etch-a-Sketch Program with Tkinter
 
 In this assignment, you will create an interactive “Etch-a-Sketch” application using Tkinter. Your program will allow users to draw on a canvas using adjustable color settings and coordinate sliders. Follow the instructions below to complete this assignment.
-
+![Etcha-a-Sketch](sketch1.png)
 ---
 
 #### Objective:
@@ -21,6 +21,7 @@ Create an interactive GUI where users can control the x and y coordinates of a l
    - Create `IntVar` variables for `x`, `y`, `oldx`, and `oldy` to track the current and previous coordinates.
 
 3. **Functions**
+  ![Etcha-a-Sketch](sketch2.png)
    - **draw_line(event):**
      - Draw a line from `oldx`, `oldy` to `x`, `y` on a canvas.
      - Update `oldx` and `oldy` to the new `x`, `y` values after each line.
@@ -31,7 +32,7 @@ Create an interactive GUI where users can control the x and y coordinates of a l
    - **clear_canvas():**
      - Clear all drawings from the canvas.
 
-4. **Add Widgets**
+5. **Add Widgets**
    - **Sliders for RGB Values:**
      - Create three horizontal sliders (Scale widgets) to adjust the red, green, and blue color components.
      - Each slider should have a distinct background color (`red`, `green`, `blue`).
@@ -45,10 +46,10 @@ Create an interactive GUI where users can control the x and y coordinates of a l
      - Add a button labeled "Clear" to clear the canvas.
      - Connect the button’s command to `clear_canvas`.
 
-5. **Canvas**
+6. **Canvas**
    - Add a canvas widget where the drawing will take place. Set its background to black.
 
-6. **Labels**
+7. **Labels**
    - Place a label at the top of the window with the title **"Etch-a-Sketch"** in large font.
 
 ---
