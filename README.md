@@ -14,7 +14,6 @@ Create an interactive GUI where users can control the x and y coordinates of a l
 1. **Basic Setup**
    - Import Tkinter using `from tkinter import *`.
    - Initialize the main window with the title **"Etch-a-Sketch"**.
-   - Set the main window size to `1000x800` and a background color of your choice.
 
 2. **Define Variables**
    - Use `IntVar` to create variables for red, green, blue values (each ranging from 0-255).
